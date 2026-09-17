@@ -14,22 +14,22 @@ Each problem lives in its own directory with:
 
 ## Solved
 
-**Solved: 111 problems · 16 topics**
+**Solved: 118 problems · 16 topics**
 
-**Difficulty: 42 Easy · 64 Medium · 5 Hard**
+**Difficulty: 44 Easy · 67 Medium · 7 Hard**
 
 | Topic | Solved |
 |------|--------|
-| Arrays & Strings | 13 |
+| Arrays & Strings | 15 |
 | Hash Tables | 8 |
 | Two Pointers | 6 |
-| Sliding Window | 3 |
-| Stack & Queue | 6 |
+| Sliding Window | 4 |
+| Stack & Queue | 8 |
 | Binary Search | 8 |
 | Linked Lists | 8 |
 | Trees | 14 |
-| Graphs | 9 |
-| Dynamic Programming | 10 |
+| Graphs | 10 |
+| Dynamic Programming | 11 |
 | Greedy | 3 |
 | Cache | 2 |
 | Heap | 6 |
@@ -37,7 +37,7 @@ Each problem lives in its own directory with:
 | Backtracking | 6 |
 | Intervals | 6 |
 
-## Arrays & Strings (13)
+## Arrays & Strings (15)
 
 - [x] [Two Sum](./arrs-and-strs/two-sum/) - hash map, two pointers, brute force
 - [x] [Contains Duplicate](./arrs-and-strs/contains-duplicate/) - hash set, sorting
@@ -52,6 +52,8 @@ Each problem lives in its own directory with:
 - [x] [Add Binary](./arrs-and-strs/add-binary/) - digit-by-digit, carry, from the end
 - [x] [Spiral Matrix](./arrs-and-strs/spiral-matrix/) - four boundaries, spiral traversal
 - [x] [Sort Colors](./arrs-and-strs/sort-colors/) - Dutch National Flag, three pointers
+- [x] [Running Sum of 1d Array](./arrs-and-strs/running-sum-of-1d-array/) - prefix sums, one pass
+- [x] [String to Integer (atoi)](./arrs-and-strs/string-to-integer/) - string parsing, sign, overflow clamping
 
 ## Hash Tables (8)
 
@@ -73,13 +75,14 @@ Each problem lives in its own directory with:
 - [x] [Container With Most Water](./two-pointers/container-with-most-water/) - two pointers greedy
 - [x] [Trapping Rain Water](./two-pointers/trapping-rain-water/) - two pointers, leftMax/rightMax
 
-## Sliding Window (3)
+## Sliding Window (4)
 
 - [x] [Maximum Average Subarray I](./sliding-window/maximum-average-sum-i/) - fixed-size window
 - [x] [Minimum Size Subarray Sum](./sliding-window/minimum-size-subarray-sum/) - variable-size window
 - [x] [Permutation in String](./sliding-window/permutation-in-string/) - fixed window + frequency counter
+- [x] [Find All Anagrams in a String](./sliding-window/find-all-anagrams-in-string/) - fixed window + frequency map, transitions counter
 
-## Stack & Queue (6)
+## Stack & Queue (8)
 
 - [x] [Valid Parentheses](./stack-and-queue/valid-parentheses/) - stack
 - [x] [Implement Queue using Stacks](./stack-and-queue/implement-queue-using-stacks/) - two stacks, amortized O(1)
@@ -87,6 +90,8 @@ Each problem lives in its own directory with:
 - [x] [Min Stack](./stack-and-queue/min-stack/) - two stacks, history of mins
 - [x] [Evaluate Reverse Polish Notation](./stack-and-queue/evaluate-reverse-polish-notation/) - stack
 - [x] [Daily Temperatures](./stack-and-queue/daily-temperatures/) - monotonic decreasing stack
+- [x] [Largest Rectangle in Histogram](./stack-and-queue/largest-rectangle-in-histogram/) - monotonic stack, nearest smaller boundaries
+- [x] [Next Greater Element I](./stack-and-queue/next-greater-element-i/) - monotonic decreasing stack + hash map
 
 ## Binary Search (8)
 
@@ -117,7 +122,7 @@ Each problem lives in its own directory with:
 - [x] [Invert Binary Tree](./trees/invert-binary-tree/) - DFS swap left/right
 - [x] [Path Sum](./trees/path-sum/) - DFS, leaf check
 - [x] [Binary Tree Level Order Traversal](./trees/binary-tree-level-order-traversal/) - BFS with level tracking
-- [x] [Lowest Common Ancestor of a BST](./trees/lowers-common-ancestor-of-a-binary-search-tree/) - BST property shortcut
+- [x] [Lowest Common Ancestor of a BST](./trees/lowest-common-ancestor-of-a-binary-search-tree/) - BST property shortcut
 - [x] [Binary Tree Right Side View](./trees/binary-tree-right-side-view/) - DFS right-first, depth tracking
 - [x] [Validate Binary Search Tree](./trees/validate-binary-search-tree/) - range passing top-down
 - [x] [Diameter of Binary Tree](./trees/diameter-of-binary-search/) - DFS post-order, max(left+right)
@@ -127,7 +132,7 @@ Each problem lives in its own directory with:
 - [x] [Kth Smallest Element in a BST](./trees/kth-smallest-element-in-a-bst/) - in-order traversal
 - [x] [Lowest Common Ancestor of a Binary Tree](./trees/lowest-common-ancestor-of-a-binary-tree/) - recursive DFS
 
-## Graphs (9)
+## Graphs (10)
 
 - [x] [Find if Path Exists in Graph](./graphs/find-if-path-exists-in-graph/) - DFS + adjacency list, Union Find
 - [x] [Flood Fill](./graphs/flood-fill/) - DFS on matrix
@@ -138,8 +143,9 @@ Each problem lives in its own directory with:
 - [x] [Rotting Oranges](./graphs/rotting-oranges/) - multi-source BFS by levels
 - [x] [01 Matrix](./graphs/01-matrix/) - multi-source BFS from all zeros
 - [x] [Accounts Merge](./graphs/accounts-merge/) - union-find (DSU), email components
+- [x] [Minimum Height Trees](./graphs/minimum-height-trees/) - leaf peeling by BFS layers, tree centers
 
-## Dynamic Programming (10)
+## Dynamic Programming (11)
 
 - [x] [Climbing Stairs](./dynamic-programming/climbing-stairs/) - Fibonacci, two variables
 - [x] [Min Cost Climbing Stairs](./dynamic-programming/min-cost-climbing-stairs/) - in-place DP, min of two paths
@@ -151,6 +157,7 @@ Each problem lives in its own directory with:
 - [x] [Jump Game](./dynamic-programming/jump-game/) - greedy, track max reach
 - [x] [Word Break](./dynamic-programming/word-break/) - DP on string prefixes, O(n²)
 - [x] [Partition Equal Subset Sum](./dynamic-programming/partition-equal-subset-sum/) - 0/1 knapsack DP, target = total/2
+- [x] [Maximum Profit in Job Scheduling](./dynamic-programming/maximum-profit-in-job-scheduling/) - sort by end time + DP + binary search
 
 ## Greedy (3)
 
