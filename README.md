@@ -9,8 +9,8 @@ Algorithmic training - solving problems and taking notes.
 
 Each problem lives in its own directory with:
 
-- `solution.go` — the implementation
-- `notes.md` — solution idea, complexity, and mistakes encountered
+- `solution.go` - the implementation
+- `notes.md` - solution idea, complexity, and mistakes encountered
 
 ## Solved
 
