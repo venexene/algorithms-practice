@@ -14,23 +14,23 @@ Each problem lives in its own directory with:
 
 ## Solved
 
-**Solved: 118 problems · 16 topics**
+**Solved: 123 problems · 16 topics**
 
-**Difficulty: 44 Easy · 67 Medium · 7 Hard**
+**Difficulty: 45 Easy · 71 Medium · 7 Hard**
 
 | Topic | Solved |
 |------|--------|
 | Arrays & Strings | 15 |
-| Hash Tables | 8 |
-| Two Pointers | 6 |
-| Sliding Window | 4 |
+| Hash Tables | 10 |
+| Two Pointers | 7 |
+| Sliding Window | 5 |
 | Stack & Queue | 8 |
 | Binary Search | 8 |
 | Linked Lists | 8 |
 | Trees | 14 |
 | Graphs | 10 |
 | Dynamic Programming | 11 |
-| Greedy | 3 |
+| Greedy | 4 |
 | Cache | 2 |
 | Heap | 6 |
 | Trie | 3 |
@@ -55,7 +55,7 @@ Each problem lives in its own directory with:
 - [x] [Running Sum of 1d Array](./arrs-and-strs/running-sum-of-1d-array/) - prefix sums, one pass
 - [x] [String to Integer (atoi)](./arrs-and-strs/string-to-integer/) - string parsing, sign, overflow clamping
 
-## Hash Tables (8)
+## Hash Tables (10)
 
 - [x] [Intersection of Two Arrays](./hash-tables/intersection-of-two-arrays/) - hash set, delete for uniqueness
 - [x] [Jewels and Stones](./hash-tables/jewels-and-stones/) - hash set lookup
@@ -65,8 +65,10 @@ Each problem lives in its own directory with:
 - [x] [Top K Frequent Elements](./hash-tables/top-k-frequent-elements/) - min-heap, bucket sort
 - [x] [Longest Consecutive Sequence](./hash-tables/longest-consecutive-sequence/) - hash set, sequence start detection
 - [x] [Longest Palindrome](./hash-tables/longest-palindrome/) - frequency set, even/odd counts
+- [x] [Find the Difference of Two Arrays](./hash-tables/find-the-difference-of-two-arrays/) - hash sets, set difference
+- [x] [Max Number of K-Sum Pairs](./hash-tables/max-number-of-k-sum-pairs/) - frequency map, complement matching
 
-## Two Pointers (6)
+## Two Pointers (7)
 
 - [x] [Two Sum II](./two-pointers/two-sum-2/) - two pointers on sorted array
 - [x] [Remove Element](./two-pointers/remove-element/) - write pointer, in-place
@@ -74,13 +76,15 @@ Each problem lives in its own directory with:
 - [x] [3Sum](./two-pointers/sum-3/) - sort + two pointers, hash map
 - [x] [Container With Most Water](./two-pointers/container-with-most-water/) - two pointers greedy
 - [x] [Trapping Rain Water](./two-pointers/trapping-rain-water/) - two pointers, leftMax/rightMax
+- [x] [String Compression](./two-pointers/string-compression/) - group scanning, write pointer, in-place
 
-## Sliding Window (4)
+## Sliding Window (5)
 
 - [x] [Maximum Average Subarray I](./sliding-window/maximum-average-sum-i/) - fixed-size window
 - [x] [Minimum Size Subarray Sum](./sliding-window/minimum-size-subarray-sum/) - variable-size window
 - [x] [Permutation in String](./sliding-window/permutation-in-string/) - fixed window + frequency counter
 - [x] [Find All Anagrams in a String](./sliding-window/find-all-anagrams-in-string/) - fixed window + frequency map, transitions counter
+- [x] [Maximum Number of Vowels in a Substring of Given Length](./sliding-window/maximum-number-of-vowels-in-a-substring-of-given-length/) - fixed-size window, vowel count
 
 ## Stack & Queue (8)
 
@@ -159,11 +163,12 @@ Each problem lives in its own directory with:
 - [x] [Partition Equal Subset Sum](./dynamic-programming/partition-equal-subset-sum/) - 0/1 knapsack DP, target = total/2
 - [x] [Maximum Profit in Job Scheduling](./dynamic-programming/maximum-profit-in-job-scheduling/) - sort by end time + DP + binary search
 
-## Greedy (3)
+## Greedy (4)
 
 - [x] [Jump Game II](./greedy/jump-game-2/) - BFS-levels greedy, two boundaries
 - [x] [Gas Station](./greedy/gas-station/) - greedy pass, tank reset
 - [x] [Partition Labels](./greedy/partition-labels/) - last-index map, two passes
+- [x] [Increasing Triplet Subsequence](./greedy/increasing-triplet-subsequence/) - one pass, minimum single and pair tail
 
 ## Cache (2)
 
